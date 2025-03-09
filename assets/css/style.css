@@ -12,12 +12,10 @@
 }
 
 /* Global styles */
-
 h1,
-h2,
-h3 {
+h2 {
     font-family: var(--secondary-font);
-    color: var(--secondary-color) !important;
+    color: var(--secondary-color)
 }
 
 p {
@@ -26,6 +24,8 @@ p {
 }
 
 body {
+    background-color: #3f0676 !important;
+    /* to display if background image does not load */
     background-image: url("../images/space-scramble-bg.png");
     background-size: cover;
     height: 100vh;
@@ -43,7 +43,7 @@ header #volume-button {
     padding: 40px 20px;
 }
 
-/* Game title*/
+/* Game title */
 .game-title {
     text-align: center;
     margin-top: 30px;
@@ -58,10 +58,10 @@ header #volume-button {
 /* Game box styling */
 .container {
     border-radius: 20px;
-    margin-top: 30vh;
+    background: #000560;
+    margin-top: 10vh;
     text-align: center;
-    background-color: #000560;
-    max-width: fit-content;
+    min-width: fit-content;
 }
 
 /* Scrambled word styling */
@@ -70,9 +70,11 @@ header #volume-button {
     font-size: 2.5rem;
     letter-spacing: 20px;
     text-transform: uppercase;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
 }
 
-/* Hint styling */
+/* Hint and timer styling */
 .container .hint,
 .timer {
     font-size: 1.5rem;
@@ -133,10 +135,6 @@ header #volume-button {
     color: #000560;
 }
 
-.modal list {
-    color: #000560;
-}
-
 /* Media queries */
 /* Media query: Extra Small screens (<576px) */
 @media screen and (max-width: 575px) {
@@ -152,14 +150,12 @@ header #volume-button {
     .container .word {
         font-size: 1rem;
         letter-spacing: 20px;
-
     }
 
     .container .hint,
     .timer {
         font-size: 1rem;
         padding-top: 20px;
-
     }
 
 
