@@ -64,3 +64,18 @@ body {
     margin-bottom: 30px;
     font-family: var(--primary-font);
 }
+
+/* Buttons */
+.container button {
+    margin-left: 10px;
+    background-color: var(--primary-color);
+    text-align: center;
+    height: 3rem;
+    margin-bottom: 50px;
+    font-family: var(--primary-font);
+}
+
+.container button:hover {
+    background-color: #eed0ff;
+    transition: color 0.4s ease-in-out;
+}
