@@ -120,4 +120,28 @@ Here is some additional feedback from the physical testing process by users:
 I used Lighthouse within the Google DevTools to review the colours and fonts used. Additionally, Lighthouse provides insights into other key areas like Performance, SEO, and Best Practices. <br>
 ![lighthouse result](docs/images/lighthouse-index.webp)
 
+### Manual testing
+- I performed cross-browser testing to ensure the website operates smoothly on various browsers.
+- The site was tested on different screen sizes to verify it adapts well, maintaining both its design and functionality across devices.
+- The text and fonts were reviewed for clarity and readability to provide an optimal user experience. <br>
 
+Below are some screenshots demonstrating how the site looks on different devices.
+
+### Desktop
+|Chrome 131|Safari 18.3|Firefox 133.0|
+| ------------- | ------------- | ------------- |
+|![chrome index page](docs/images/chrome-index.webp)|![safari index page](docs/images/safari-index.webp)|![firefox index page](docs/images/firefox-index.webp)|
+
+### Mobile and tablet
+|Mobile - Safari iOS 18.3|
+| ------------- |
+|![Safari ios mobile index page](docs/images/ios-mobile.webp)|
+
+
+|Android mobile - Chrome 131|
+| ------------- | 
+|![Android mobile index page](docs/images/android-mobile.webp)|
+
+|Tablet - Safari iOS 18.3|
+| ------------- | 
+|![Safari ios tablet index page](docs/images/tablet-index.webp)|
