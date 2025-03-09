@@ -68,6 +68,13 @@ document.addEventListener("DOMContentLoaded", function () {
             volumeButton.innerHTML = "<i class='fa-solid fa-volume-high'></i>"; // Unmute icon
         }
     });
+
+       // Check to set the correct icon based on whether the audio is already playing
+       if (backgroundMusic.paused) {
+        volumeButton.innerHTML = "<i class='fa-solid fa-volume-high'></i>"; // Volume icon when audio is paused
+    } else {
+        volumeButton.innerHTML = "<i class='fa-solid fa-volume-xmark'></i>"; // Mute icon when audio is playing
+    }
    
     let correctWord = "";
     
