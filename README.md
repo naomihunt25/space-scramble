@@ -39,3 +39,16 @@
  |5|As a **visitor**, I want to easily navigate the website so that I can find the information I need quickly and efficiently. <br><br>**Task:** the website has a clear navigation bar with links to key pages.|
  |6|As a **mobile user**, I want the website to be fully responsive so that I can access it seamlessly on any device. <br><br>**Task:** Ensure the website displays correctly on different screen sizes and are easy to navigate on mobile and tablet devices.|
  |7|As a **user with accessibility needs**, I want the game to be accessible so that I can play comfortably. <br><br>**Task:** Ensure the site passes accessibility tests.|
+
+ ## Design choices
+ For Space Scramble, I created a vibrant, engaging design with a galaxy background to enhance the space theme. The colourful, cosmic backdrop adds depth and immerses players in the experience. This design creates a dynamic, fun environment that keeps players engaged.
+ 
+ ### Typography choices
+ **Primary Font:** Galindo
+ Galindo was selected for headings and scrambled text, providing a bold, futuristic look that fits the space theme and remains highly readable.
+ 
+ **Secondary Font:** Happy Monkey
+ Happy Monkey was chosen for paragraph text due to its playful style, which contrasts with the boldness of Galindo while maintaining clarity and readability.
+ 
+ ### Colour palette
+ The dark blues and purples, including #3f0676 and #000560, enhance the galactic feel, while light-coloured fonts provide high contrast for improved readability. This colour scheme complements the immersive space atmosphere.
