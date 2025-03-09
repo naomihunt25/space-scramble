@@ -23,7 +23,6 @@ h3 {
 p {
     font-family: var(--primary-font);
     color: var(--primary-color);
-
 }
 
 body {
@@ -93,4 +92,17 @@ body {
 
 .btn-primary:hover {
     background-color: #020bb8 !important;
+}
+
+/* Modal Styling */
+
+.modal-content {
+    background: #000560;
+    border-radius: 15px;
+    font-family: var(--primary-font);
+}
+
+.modal-title {
+    font-family: var(--secondary-font);
+    color: #000560;
 }
