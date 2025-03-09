@@ -52,3 +52,5 @@
  
  ### Colour palette
  The dark blues and purples, including #3f0676 and #000560, enhance the galactic feel, while light-coloured fonts provide high contrast for improved readability. This colour scheme complements the immersive space atmosphere.
+
+ 
