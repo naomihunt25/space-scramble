@@ -45,7 +45,7 @@
  ### User stories
  |No.|User Story|
  | ------------- | ------------- |
- |1|As a **player**, As a player, I want a visually appealing game page so that I am excited to play the game. <br><br>**Task:** Design an engaging homepage which fits the theme.|
+ |1|As a **player**, I want a visually appealing game page so that I am excited to play the game. <br><br>**Task:** Design an engaging homepage which fits the theme.|
  |2|As a **new user**, I want to understand how to play Space Scramble so that I can start playing right away. <br><br>**Task:** Create a simple, easy-to-follow steps explaining the game mechanics, and make them accessible any point of the game.|
  |3|As a **mobile user**, I want the game to be fully responsive so that I can play on any device. <br><br>**Task:** Ensure the game is optimised for mobile, tablet, and desktop users.|
  |4|As a **player**, I want sound effects so that the game feels more immersive. <br><br>**Task:** Add audio for a richer experience.|
@@ -62,7 +62,7 @@
  Galindo was selected for headings and scrambled text, providing a bold, futuristic look that fits the space theme and remains highly readable.
  
  **Secondary Font:** Happy Monkey
- Happy Monkey was chosen for paragraph text due to its playful style, which contrasts with the boldness of Galindo while maintaining clarity and readability.
+ Happy Monkey was chosen for paragraph text due to its playful design, which contrasts with the boldness of Galindo while maintaining clarity and readability.
  
  ### Colour palette
  The dark blues and purples, including #3f0676 and #000560, enhance the galactic feel, while light-coloured fonts provide high contrast for improved readability. This colour scheme complements the immersive space atmosphere.
@@ -202,7 +202,7 @@ let wordArray = randomObj.word.split("");
          hintText.innerText = randomObj.hint;
 ```
 #### Bug 3
-Needed to stop any ongoing timer that was previously started.<br><br>
+Stopped any previously running timers<br><br>
 *Original code*:<br>
 ```js
 timeLeft = 20; 
