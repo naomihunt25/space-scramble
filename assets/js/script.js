@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const timeText = document.querySelector(".timer span");
 
     let correctWord = "";
+    
     let timer;
     let timeLeft = 20;
 
@@ -111,6 +112,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         inputField.value = ""; // Clear the input field after checking
     }
+
+     // Add keydown event listener for the Enter key
+     inputField.addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            checkWord();  // Trigger checkWord when Enter key is pressed
+        }
+    });
 
     // Add event listeners for buttons  
     document.querySelector(".new-word").addEventListener("click", initGame);
