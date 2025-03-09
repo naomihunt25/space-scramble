@@ -108,3 +108,16 @@ Here is some additional feedback from the physical testing process by users:
 - Enhancing audio options, such as volume control or different sound themes, to cater to more diverse user preferences.
 - Add a score system to keep tabs of progress.
 - Could add difficulty level button
+
+### Validator testing
+- **HTML**
+    - Index page: No errors were returned when passing through the official W3C validator<br> https://validator.w3.org/nu/?doc=https%3A%2F%2Fnaomihunt25.github.io%2Fspace-scramble%2Findex.html
+    - 404 page: No errors were returned when passing through the official W3C validator<br> https://validator.w3.org/nu/?doc=https%3A%2F%2Fnaomihunt25.github.io%2Fspace-scramble%2F404
+- **CSS**
+    - No issues were found after validating through the official Jigsaw validator<br> https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnaomihunt25.github.io%2Fspace-scramble%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
+### Accessibility testing
+I used Lighthouse within the Google DevTools to review the colours and fonts used. Additionally, Lighthouse provides insights into other key areas like Performance, SEO, and Best Practices. <br>
+![lighthouse result](docs/images/lighthouse-index.webp)
+
+
