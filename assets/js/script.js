@@ -69,6 +69,8 @@ document.addEventListener("DOMContentLoaded", function () {
         scrambleWord(wordArray);
         wordText.innerText = wordArray.join("");
         hintText.innerText = randomObj.hint;
+
+        inputField.value = ""; // Clear previous input
     }
 
     // Scramble the letters of a word
@@ -80,13 +82,24 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Check what the user typed
-    function checkAnswer() {
-        console.log("Checking anwser");
+    function checkWord() {
+        let userWord = inputField.value.toLowerCase();
+        if (!userWord) {
+            alert("Please enter a word!");
+            return;
+        }
+        if (userWord === correctWord) {
+            alert("Congratulations! You guessed the correct word!");
+            initGame(); // Start a new game after correct guess
+        } else {
+            alert("Oh no! That is not the correct word!");
+        }
+        inputField.value = ""; // Clear the input field after checking
     }
 
     // Add event listeners for buttons  
     document.querySelector(".new-word").addEventListener("click", initGame);
-    document.querySelector(".submit").addEventListener("click", checkAnswer);
+    document.querySelector(".submit").addEventListener("click", checkWord);
 
 
     initGame();
