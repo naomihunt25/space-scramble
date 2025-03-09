@@ -1,4 +1,6 @@
 # Milestone Project 2 - Space Scramble
+
+![Mockup of website](docs/images/space-scramble-mockup.webp)
  
  ## Project description
  
@@ -53,4 +55,11 @@
  ### Colour palette
  The dark blues and purples, including #3f0676 and #000560, enhance the galactic feel, while light-coloured fonts provide high contrast for improved readability. This colour scheme complements the immersive space atmosphere.
 
- 
+## Wireframes
+The wireframes below represent the envisioned layout for the Space Scramble website. They provide a structural foundation for the development, ensuring the site is designed with the user in mind.
+
+### Index page design
+![Index page wireframe](docs/images/index-wireframe.webp)
+
+### Modal design
+![Modal wireframe](docs/images/modal-wireframe.webp)
