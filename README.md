@@ -67,6 +67,7 @@ The home page serves as the first point of interaction for users, designed to be
 
 - Visually engaging design: The homepage is designed with a space-themed aesthetic to attract and excite players (User Story 1).
 - Responsive layout: The page is optimised for desktop, tablet, and mobile users, ensuring a seamless experience across devices (User Story 5).
+ ![Home page screenshot](docs/images/features-homepage.webp)
 
 ### Game 
 The game page serves as the interactive area where players can engage with the game mechanics (User stories 2, 3, and 6):
@@ -74,11 +75,14 @@ The game page serves as the interactive area where players can engage with the g
 - **Clear game instructions:** Simple, easy-to-follow steps explain how to play the game, available at any point of the game for new users to refer to (User Story 2).
 - **Responsive gameplay:** The game layout adjusts for mobile, tablet, and desktop users, ensuring it is playable across all devices (User Story 3).
 - **Accessible features:** The game includes accessible font sizes, color contrasts, and keyboard navigation to cater to users with various accessibility needs (User Story 6).
+ ![Instructions screenshot](docs/images/features-instructions.webp)
 
 ### Background music
-To enhance the user experience, the game includes space-themed background music (User story 4).
+To enhance the user experience, the game includes space-themed background music (User story 4). <br>
+ ![Audio icon screenshot](docs/images/features-audio.webp)
 
 ### 404 Error Page
 The 404 error page provides a helpful, user-friendly experience when users navigate to an invalid page.
 
 - **Error message:** A clear and simple message tells the user they have encountered a broken link or non-existent page and automatically return to the homepage.
+ ![404 page screenshot](docs/images/features-404.webp)
