@@ -73,8 +73,9 @@ document.addEventListener("DOMContentLoaded", function () {
         inputField.value = ""; // Clear previous input
 
         // Reset the time and display it
-        timeLeft = 20;
-        timeText.innerText = timeLeft;
+        clearInterval(timer); // Reset previous timer
+        timeLeft = 20; // Reset countdown to 20 seconds
+        timeText.innerText = timeLeft; // Update displayed time
 
         // Start a new countdown
         timer = setInterval(countdown, 1000); // Calls countdown every second
