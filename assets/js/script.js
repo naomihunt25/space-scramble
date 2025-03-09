@@ -47,3 +47,12 @@ const words = [
     { word: "radio", hint: "A type of wave used in communication with distant objects in space" },
     { word: "earth", hint: "The third planet from the Sun, home to life." }
 ];
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    // Element references  
+    const inputField = document.querySelector("input");
+    const wordText = document.querySelector(".word");
+    const hintText = document.querySelector(".hint span");
+    const timeText = document.querySelector(".timer span");
+});
