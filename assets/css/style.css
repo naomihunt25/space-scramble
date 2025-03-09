@@ -43,6 +43,18 @@ header #volume-button {
     padding: 40px 20px;
 }
 
+/* Game title*/ 
+.game-title {
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.game-title h1 {
+    font-family: var(--secondary-font);
+    font-size: 5rem;
+    color: var(--secondary-color);
+}
+
 /* Game box styling */
 .container {
     border-radius: 20px;
