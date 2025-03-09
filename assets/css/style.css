@@ -33,6 +33,16 @@ body {
     overflow: hidden;
 }
 
+/* mute/unmute button */
+header #volume-button {
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: transparent;
+    min-width: 20px;
+    border: none;
+    padding: 40px 20px;
+}
+
 /* Game box styling */
 .container {
     border-radius: 20px;
