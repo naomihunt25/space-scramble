@@ -122,7 +122,6 @@ header #volume-button {
 }
 
 /* Modal Styling */
-
 .modal-content {
     background: #000560;
     border-radius: 15px;
@@ -131,6 +130,10 @@ header #volume-button {
 
 .modal-title {
     font-family: var(--secondary-font);
+    color: #000560;
+}
+
+.modal list {
     color: #000560;
 }
 

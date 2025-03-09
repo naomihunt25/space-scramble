@@ -58,8 +58,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const hintText = document.querySelector(".hint span");
     const timeText = document.querySelector(".timer span");
 
-     // Function to toggle the audio state (play/pause) and icon
-     volumeButton.addEventListener('click', function() {
+    // Function to toggle the audio state (play/pause) and icon
+    volumeButton.addEventListener('click', function () {
         if (backgroundMusic.paused) {
             backgroundMusic.play(); // Play the music
             volumeButton.innerHTML = "<i class='fa-solid fa-volume-xmark'></i>"; // Mute icon
@@ -69,40 +69,48 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-       // Check to set the correct icon based on whether the audio is already playing
-       if (backgroundMusic.paused) {
+    // Initial check to set the correct icon based on whether the audio is already playing
+    if (backgroundMusic.paused) {
         volumeButton.innerHTML = "<i class='fa-solid fa-volume-high'></i>"; // Volume icon when audio is paused
     } else {
         volumeButton.innerHTML = "<i class='fa-solid fa-volume-xmark'></i>"; // Mute icon when audio is playing
     }
-   
-    let correctWord = "";
-    
-    let timer;
-    let timeLeft = 20;
 
-    // Start a new round 
+    let correctWord = ""; // This will be updated when a new word is chosen
+    let timer;
+    let timeLeft = 20; // Default time set to 20 seconds
+
+    // Function to initialize the timer
+    function initTimer() {
+        clearInterval(timer); // Reset previous timer
+        timeLeft = 20; // Reset countdown to 20 seconds
+        timeText.innerText = timeLeft; // Update displayed time immediately
+
+        timer = setInterval(() => {
+            if (timeLeft > 0) {
+                timeLeft--;
+                timeText.innerText = timeLeft; // Update countdown display
+            } else {
+                clearInterval(timer);
+                alert(`Out of time! ${correctWord.toUpperCase()} was the correct word`);
+                initGame(); // Restart game
+            }
+        }, 1000);
+    }
+
+    // Function to initialize the game by choosing a random word
     function initGame() {
+        initTimer(); // Initialize the timer at the start of each game
         let randomObj = words[Math.floor(Math.random() * words.length)];
         correctWord = randomObj.word.toLowerCase();
-
         let wordArray = randomObj.word.split("");
         scrambleWord(wordArray);
         wordText.innerText = wordArray.join("");
         hintText.innerText = randomObj.hint;
-
         inputField.value = ""; // Clear previous input
-
-        // Reset the time and display it
-        clearInterval(timer); // Reset previous timer
-        timeLeft = 20; // Reset countdown to 20 seconds
-        timeText.innerText = timeLeft; // Update displayed time
-
-        // Start a new countdown
-        timer = setInterval(countdown, 1000); // Calls countdown every second
     }
 
-    // Scramble the letters of a word
+    // Scramble the letters of the word
     function scrambleWord(wordArray) {
         for (let i = wordArray.length - 1; i > 0; i--) {
             let j = Math.floor(Math.random() * (i + 1));
@@ -110,14 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    function countdown() {
-        if (timeLeft > 0) {
-            timeLeft--;
-            timeText.innerText = timeLeft;
-        }
-    }
-
-    // Check what the user typed
+    // Function to check if the user's input matches the correct word
     function checkWord() {
         let userWord = inputField.value.toLowerCase();
         if (!userWord) {
@@ -133,8 +134,8 @@ document.addEventListener("DOMContentLoaded", function () {
         inputField.value = ""; // Clear the input field after checking
     }
 
-     // Add keydown event listener for the Enter key
-     inputField.addEventListener("keydown", function(event) {
+    // Add keydown event listener for the Enter key
+    inputField.addEventListener("keydown", function (event) {
         if (event.key === "Enter") {
             checkWord();  // Trigger checkWord when Enter key is pressed
         }
@@ -144,7 +145,6 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelector(".new-word").addEventListener("click", initGame);
     document.querySelector(".submit").addEventListener("click", checkWord);
 
-
+    // Initialize the game when the page loads
     initGame();
 });
-
