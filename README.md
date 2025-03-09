@@ -3,13 +3,13 @@
 ![Mockup of website](docs/images/space-scramble-mockup.webp)
 
 # Table of Contents
-1. [Project Description](#project-description)
+1. [Project description](#project-description)
 2. [User Experience (UX)](#user-experience-ux)
-3. [Design Choices](#design-choices)
+3. [Design choices](#design-choices)
 4. [Wireframes](#wireframes)
 5. [Features](#features)
 6. [Testing](#testing)
-7. [Fixed Bugs](#fixed-bugs)
+7. [Fixed bugs](#fixed-bugs)
 8. [Deployment](#deployment)
 9. [Credits](#credits)
  
@@ -267,3 +267,5 @@ Live link - [Space Scramble](https://naomihunt25.github.io/space-scramble/)
 - The background image was sourced from [Canva](https://www.Canva.com/)
 - Background area was created by Nemeti_Tivdar and sources from [Pixabay](https://pixabay.com/music/supernatural-space-message-113176/)
 - I created wireframes using the [Balsamiq](https://balsamiq.com/) software
+
+ [Return to Table of Contents](#table-of-contents)
