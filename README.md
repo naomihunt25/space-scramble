@@ -1,13 +1,26 @@
 # Milestone Project 2 - Space Scramble
 
 ![Mockup of website](docs/images/space-scramble-mockup.webp)
+
+# Table of Contents
+1. [Project Description](#project-description)
+2. [User Experience (UX)](#user-experience-ux)
+3. [Design Choices](#design-choices)
+4. [Wireframes](#wireframes)
+5. [Features](#features)
+6. [Testing](#testing)
+7. [Fixed Bugs](#fixed-bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
  
  ## Project description
  
  This project is designed for Unit 2: Interactive Front-End Development, where the goal is to create a dynamic web application. For this project, I have developed Space Scramble, a fast-paced word game where players have 20 seconds to unscramble space-themed words of varying difficulty. The game will be designed with a focus on user interaction, leveraging responsive design and real-time gameplay to create an engaging experience for users.
  
  The core focus of this project is to apply the front-end development principles I have learned, demonstrating the ability to build an interactive, functional, and user-friendly web application.
- 
+
+ [Return to Table of Contents](#table-of-contents)
+
  ## User experience (UX)
  
  ### Project Goals
@@ -39,6 +52,8 @@
  |5|As a **mobile user**, I want the website to be fully responsive so that I can access it seamlessly on any device. <br><br>**Task:** Ensure the website displays correctly on different screen sizes and are easy to navigate on mobile and tablet devices.|
  |6|As a **user with accessibility needs**, I want the game to be accessible so that I can play comfortably. <br><br>**Task:** Ensure the site passes accessibility tests.|
 
+ [Return to Table of Contents](#table-of-contents)
+
  ## Design choices
  For Space Scramble, I created a vibrant, engaging design with a galaxy background to enhance the space theme. The colourful, cosmic backdrop adds depth and immerses players in the experience. This design creates a dynamic, fun environment that keeps players engaged.
  
@@ -52,6 +67,8 @@
  ### Colour palette
  The dark blues and purples, including #3f0676 and #000560, enhance the galactic feel, while light-coloured fonts provide high contrast for improved readability. This colour scheme complements the immersive space atmosphere.
 
+[Return to Table of Contents](#table-of-contents)
+
 ## Wireframes
 The wireframes below represent the envisioned layout for the Space Scramble website. They provide a structural foundation for the development, ensuring the site is designed with the user in mind.
 
@@ -60,6 +77,8 @@ The wireframes below represent the envisioned layout for the Space Scramble webs
 
 ### Modal design
 ![Modal wireframe](docs/images/modal-wireframe.webp)
+
+[Return to Table of Contents](#table-of-contents)
 
 ## Features
 ### Home page
@@ -87,7 +106,9 @@ The 404 error page provides a helpful, user-friendly experience when users navig
 - **Error message:** A clear and simple message tells the user they have encountered a broken link or non-existent page and automatically return to the homepage.
  ![404 page screenshot](docs/images/features-404.webp)
 
- ## User Testing
+[Return to Table of Contents](#table-of-contents)
+
+ ## Testing
 
 ### User Stories Testing  
 Each user story was carefully tested to ensure that the Space Scramble game and website meet the expectations of users. The following table summarizes the user stories, their testing outcomes, and the supporting evidence of successful implementation.
@@ -115,6 +136,9 @@ Here is some additional feedback from the physical testing process by users:
     - 404 page: No errors were returned when passing through the official W3C validator<br> https://validator.w3.org/nu/?doc=https%3A%2F%2Fnaomihunt25.github.io%2Fspace-scramble%2F404
 - **CSS**
     - No issues were found after validating through the official Jigsaw validator<br> https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnaomihunt25.github.io%2Fspace-scramble%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+- **JSHint**
+ - Index page: No errors were returned when passing through the official JSHint validator<br> 
+ ![JSHint result](docs/images/jshint-script.webp)
 
 ### Accessibility testing
 I used Lighthouse within the Google DevTools to review the colours and fonts used. Additionally, Lighthouse provides insights into other key areas like Performance, SEO, and Best Practices. <br>
@@ -145,6 +169,8 @@ Below are some screenshots demonstrating how the site looks on different devices
 |Tablet - Safari iOS 18.3|
 | ------------- | 
 |![Safari ios tablet index page](docs/images/tablet-index.webp)|
+
+[Return to Table of Contents](#table-of-contents)
 
 ### Fixed bugs
 #### Bug 1
@@ -188,6 +214,7 @@ clearInterval(timer);
 timeLeft = 20; 
 timeText.innerText = timeLeft; 
 ```
+[Return to Table of Contents](#table-of-contents)
 
 ### Deployment
 **GitHub Pages**  
@@ -216,6 +243,8 @@ To clone the repository:
 5. Press enter to clone the repository.
 
 Live link - [Space Scramble](https://naomihunt25.github.io/space-scramble/)
+
+[Return to Table of Contents](#table-of-contents)
 
 ### Credits
 #### Content
