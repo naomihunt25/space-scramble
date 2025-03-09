@@ -27,3 +27,11 @@ p {
 body {
     background-color: #3f0676 !important;
 }
+
+/* Game box styling */
+.container {
+    border-radius: 20px;
+    margin-top: 30vh;
+    text-align: center;
+    background-color: #000560;
+}
