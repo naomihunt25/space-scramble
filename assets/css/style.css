@@ -135,6 +135,10 @@ header #volume-button {
     color: #000560;
 }
 
+.modal ol {
+    color: #000560;
+}
+
 /* Media queries */
 /* Media query: Extra Small screens (<576px) */
 @media screen and (max-width: 575px) {
