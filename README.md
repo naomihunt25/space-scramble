@@ -219,11 +219,11 @@ Live link - [Space Scramble](https://naomihunt25.github.io/space-scramble/)
 
 ### Credits
 #### Content
-- I used [Bootstrap](https://getbootstrap.com/) v5.3 to create key elements within the site including the auto-play slideshow, buttons and form
-- To ensure a thorough understanding of HTML and CSS code I wasn't confident with before implementation, I referred to [W3Schools](https://www.w3schools.com/) for guidance
+- I used [Bootstrap](https://getbootstrap.com/) v5.3 to build essential components of the site, such as buttons and modals.
+- TTo improve my understanding of HTML and CSS that I was unsure about before implementation, I used [W3Schools](https://www.w3schools.com/) for additional support.
 
 ### Colour palette
-- I utilised [ColorSpace](https://mycolor.space/?hex=%233F0676&sub=1) to get inspirationfor the colour palette for the site
+- I utilised [ColorSpace](https://mycolor.space/?hex=%233F0676&sub=1) to get inspiration for the colour palette for the site.
 
 ### Fonts
 - I used [Fontjoy](https://fontjoy.com/) to find my primary and secondary font
