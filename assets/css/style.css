@@ -61,6 +61,7 @@ header #volume-button {
     margin-top: 30vh;
     text-align: center;
     background-color: #000560;
+    max-width: fit-content;
 }
 
 /* Scrambled word styling */
