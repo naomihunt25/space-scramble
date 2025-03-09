@@ -86,3 +86,25 @@ The 404 error page provides a helpful, user-friendly experience when users navig
 
 - **Error message:** A clear and simple message tells the user they have encountered a broken link or non-existent page and automatically return to the homepage.
  ![404 page screenshot](docs/images/features-404.webp)
+
+ ## User Testing
+
+### User Stories Testing  
+Each user story was carefully tested to ensure that the Space Scramble game and website meet the expectations of users. The following table summarizes the user stories, their testing outcomes, and the supporting evidence of successful implementation.
+
+| No. | User Story | Pass/Fail | Evidence |
+| --- | ---------- | --------- | -------- |
+| 1 | As a **player**, I want a visually appealing game page so that I am excited to play the game. | Pass | The homepage is designed with a vibrant space theme that engages users right from the start. The design elements like cosmic backgrounds and dynamic UI components are visually striking and exciting to interact with. |
+| 2 | As a **new user**, I want to understand how to play Space Scramble so that I can start playing right away. | Pass | Simple, easy-to-follow instructions are accessible at any point during the game, providing a clear explanation of the gameplay mechanics and how to interact with the game. |
+| 3 | As a **mobile user**, I want the game to be fully responsive so that I can play on any device. | Pass | The game adapts seamlessly to all devices, ensuring that the layout and functionality are optimised for mobile, tablet, and desktop use without any issues. |
+| 4 | As a **player**, I want sound effects so that the game feels more immersive. | Pass | Background audio was added, making the gameplay more immersive and interactive. |
+| 5 | As a **mobile user**, I want the website to be fully responsive so that I can access it seamlessly on any device. | Pass | The website layout automatically adjusts to all screen sizes, ensuring a smooth and consistent experience on mobile, tablet, and desktop devices. The navigation remains user-friendly across all platforms. |
+| 6 | As a **user** with accessibility needs, I want the game to be accessible so that I can play comfortably. | Pass | The game follows accessibility best practices, including high contrast, larger font sizes, and keyboard navigation. The site passes accessibility tests, ensuring users with visual or mobility impairments can comfortably engage with the game. |
+
+### Testing Feedback  
+The testing phase validated that the game and website are both functional and accessible for all users. 
+
+Here is some additional feedback from the physical testing process by users:
+- Enhancing audio options, such as volume control or different sound themes, to cater to more diverse user preferences.
+- Add a score system to keep tabs of progress.
+- Could add difficulty level button
