@@ -145,3 +145,31 @@ Below are some screenshots demonstrating how the site looks on different devices
 |Tablet - Safari iOS 18.3|
 | ------------- | 
 |![Safari ios tablet index page](docs/images/tablet-index.webp)|
+
+### Deployment
+**GitHub Pages**  
+The website is hosted on GitHub Pages. To deploy it, follow these steps:
+1. Create an account on [Gitpod](https://gitpod.io/).
+2. Install the Gitpod browser extension.
+3. Go to the *Settings* tab in the [naomihunt25/space-scramble repository](https://github.com/naomihunt25/space-scramble) on GitHub.
+4. In the left sidebar, click *Pages* under the code and automation section.
+5. Under *Branch*, select "main" and click *Save*.
+6. After saving, the page will display a link under the deployment section in the [naomihunt25/space-scramble repository](https://github.com/naomihunt25/space-scramble). Click the *github-pages* link.
+7. The Deployment page will show the live site URL. Click on the link to view the deployed website.
+
+**Fork**  
+To fork the repository:
+1. On [Gitpod](https://gitpod.io/), go to the [naomihunt25/space-scramble repository](https://github.com/naomihunt25/space-scramble).
+2. Click the *Fork* button at the top-right of the page.
+3. Add a description for your fork.
+4. Click *Create Fork* to finish the process.
+
+**Clone**  
+To clone the repository:
+1. On the [naomihunt25/space-scramble repository](https://github.com/naomihunt25/space-scramble), click the *Code* button above the list of files.
+2. Copy the repository URL.
+3. Open your terminal and navigate to the directory where you want to clone the project.
+4. Run `git clone` followed by the copied URL.
+5. Press enter to clone the repository.
+
+Live link - [Space Scramble](https://naomihunt25.github.io/space-scramble/)
