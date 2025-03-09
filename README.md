@@ -28,3 +28,14 @@
  2. **Enhance user interaction**: Using a mix of visual, audio, and interactive elements, the game will provide an immersive and enjoyable experience.
  
  3. **Encourage replayability**: The game will be designed to keep users engaged and motivated to play multiple rounds through an enjoyable and rewarding experience.
+
+ ### User stories
+ |No.|User Story|
+ | ------------- | ------------- |
+ |1|As a **player**, As a player, I want a visually appealing game page so that I am excited to play the game. <br><br>**Task:** Design an engaging homepage which fits the theme.|
+ |2|As a **new user**, I want to understand how to play Space Scramble so that I can start playing right away. <br><br>**Task:** Create a simple, easy-to-follow steps explaining the game mechanics, and make them accessible any point of the game.|
+ |3|As a **mobile user**, I want the game to be fully responsive so that I can play on any device. <br><br>**Task:** Ensure the game is optimised for mobile, tablet, and desktop users.|
+ |4|As a **player**, I want sound effects so that the game feels more immersive. <br><br>**Task:** Add audio for a richer experience.|
+ |5|As a **visitor**, I want to easily navigate the website so that I can find the information I need quickly and efficiently. <br><br>**Task:** the website has a clear navigation bar with links to key pages.|
+ |6|As a **mobile user**, I want the website to be fully responsive so that I can access it seamlessly on any device. <br><br>**Task:** Ensure the website displays correctly on different screen sizes and are easy to navigate on mobile and tablet devices.|
+ |7|As a **user with accessibility needs**, I want the game to be accessible so that I can play comfortably. <br><br>**Task:** Ensure the site passes accessibility tests.|
