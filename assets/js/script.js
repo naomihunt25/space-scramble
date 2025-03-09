@@ -51,11 +51,13 @@ document.addEventListener("DOMContentLoaded", function () {
     ];
 
     // Element references  
+    const volumeButton = document.getElementById('volume-button');
+    const backgroundMusic = document.getElementById('background-music');
     const inputField = document.querySelector("input");
     const wordText = document.querySelector(".word");
     const hintText = document.querySelector(".hint span");
     const timeText = document.querySelector(".timer span");
-
+   
     let correctWord = "";
     
     let timer;
