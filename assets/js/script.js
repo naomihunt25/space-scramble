@@ -48,11 +48,30 @@ const words = [
     { word: "earth", hint: "The third planet from the Sun, home to life." }
 ];
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
 
     // Element references  
     const inputField = document.querySelector("input");
     const wordText = document.querySelector(".word");
     const hintText = document.querySelector(".hint span");
     const timeText = document.querySelector(".timer span");
+
+    let correctWord = "";
+    let timer;
+    let timeLeft = 20;
+
+    // Start a new round 
+    function initGame() {
+
+    }
+
+    // Scramble the letters of a word
+    function scrambleWord() {
+    }
+
+    // Check what the user typed
+    function checkAnswer() {
+
+    }
+
 });
