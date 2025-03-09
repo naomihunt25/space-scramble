@@ -146,6 +146,49 @@ Below are some screenshots demonstrating how the site looks on different devices
 | ------------- | 
 |![Safari ios tablet index page](docs/images/tablet-index.webp)|
 
+### Fixed bugs
+#### Bug 1
+Fixed button classes so script file could find them<br><br>
+*Original code*:<br>
+```html
+<button type="new-word" class="btn custom-button-outline">New word
+<button type="submit" class="btn custom-button-outline">Submit word
+```
+*New code*:<br>
+```html
+<button type="new-word" class="new-word btn custom-button-outline">New word
+<button type="submit" class="submit btn custom-button-outline">Submit word
+```
+#### Bug 2
+Moved scrambledWord above wordText to correct dependency order<br><br>
+*Original code*:<br>
+```js
+let wordArray = randomObj.word.split("");
+         wordText.innerText = wordArray.join("");
+         hintText.innerText = randomObj.hint;
+         scrambleWord(wordArray);
+```
+*New code*:<br>
+```js
+let wordArray = randomObj.word.split("");
+         scrambleWord(wordArray);
+         wordText.innerText = wordArray.join("");
+         hintText.innerText = randomObj.hint;
+```
+#### Bug 3
+Needed to stop any ongoing timer that was previously started.<br><br>
+*Original code*:<br>
+```js
+timeLeft = 20; 
+timeText.innerText = timeLeft; 
+```
+*New code*:<br>
+```js
+clearInterval(timer); 
+timeLeft = 20; 
+timeText.innerText = timeLeft; 
+```
+
 ### Deployment
 **GitHub Pages**  
 The website is hosted on GitHub Pages. To deploy it, follow these steps:
