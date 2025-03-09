@@ -66,9 +66,9 @@ document.addEventListener("DOMContentLoaded", function () {
         correctWord = randomObj.word.toLowerCase();
 
         let wordArray = randomObj.word.split("");
+        scrambleWord(wordArray);
         wordText.innerText = wordArray.join("");
         hintText.innerText = randomObj.hint;
-        scrambleWord(wordArray);
     }
 
     // Scramble the letters of a word
