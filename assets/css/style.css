@@ -13,7 +13,9 @@
 
 /* Global styles */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--secondary-font);
     color: var(--secondary-color) !important;
 }
@@ -45,7 +47,20 @@ body {
 }
 
 /* Hint styling */
-.container .hint, .timer {
+.container .hint,
+.timer {
     font-size: 1.5rem;
     padding-top: 20px;
-  }
+}
+
+/* Input word div styling */
+.container input {
+    width: 75%;
+    height: 5vh;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    background: #ffffff;
+    margin-bottom: 30px;
+    font-family: var(--primary-font);
+}
