@@ -43,10 +43,10 @@ header #volume-button {
     padding: 40px 20px;
 }
 
-/* Game title*/ 
+/* Game title*/
 .game-title {
     text-align: center;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
 .game-title h1 {
@@ -131,4 +131,132 @@ header #volume-button {
 .modal-title {
     font-family: var(--secondary-font);
     color: #000560;
+}
+
+/* Media queries */
+/* Media query: Extra Small screens (<576px) */
+@media screen and (max-width: 575px) {
+    .game-title h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        margin-top: 5vh;
+        max-width: fit-content;
+    }
+
+    .container .word {
+        font-size: 1rem;
+        letter-spacing: 20px;
+
+    }
+
+    .container .hint,
+    .timer {
+        font-size: 1rem;
+        padding-top: 20px;
+
+    }
+
+
+    .container input {
+        width: 90%;
+    }
+
+    .container button {
+        max-width: 15rem;
+    }
+}
+
+/* Media query: Small screens (≥576px) */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .game-title h1 {
+        font-size: 3rem;
+    }
+
+    .container {
+        margin-top: 18vh;
+    }
+
+    .container .word {
+        font-size: 2rem;
+    }
+
+    .container input {
+        width: 80%;
+    }
+
+    .container button {
+        font-size: 1.2rem;
+    }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    .game-title h1 {
+        font-size: 4rem;
+    }
+
+    .container {
+        margin-top: 15vh;
+    }
+
+    .container .word {
+        font-size: 3rem;
+    }
+
+    .container input {
+        width: 60%;
+    }
+
+    .container button {
+        font-size: 1.3rem;
+    }
+}
+
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .game-title h1 {
+        font-size: 5rem;
+    }
+
+    .container {
+        margin-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+    .container .word {
+        font-size: 3.5rem;
+    }
+
+    .container input {
+        width: 50%;
+    }
+
+    .container button {
+        font-size: 1.5rem;
+    }
+}
+
+/* Extra large devices (large laptops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .game-title h1 {
+        font-size: 6rem;
+    }
+
+    .container {
+        margin-top: 8vh;
+    }
+
+    .container .word {
+        font-size: 4rem;
+    }
+
+    .container input {
+        width: 40%;
+    }
+
+    .container button {
+        font-size: 1.7rem;
+    }
 }
