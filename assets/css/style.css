@@ -26,8 +26,9 @@ p {
 }
 
 body {
-    background-color: #3f0676 !important;
+    background-image: url("../images/space-scramble-bg.png");
 }
+
 
 /* Game box styling */
 .container {
