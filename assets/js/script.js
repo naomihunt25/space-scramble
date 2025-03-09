@@ -71,6 +71,13 @@ document.addEventListener("DOMContentLoaded", function () {
         hintText.innerText = randomObj.hint;
 
         inputField.value = ""; // Clear previous input
+
+        // Reset the time and display it
+        timeLeft = 20;
+        timeText.innerText = timeLeft;
+
+        // Start a new countdown
+        timer = setInterval(countdown, 1000); // Calls countdown every second
     }
 
     // Scramble the letters of a word
@@ -78,6 +85,13 @@ document.addEventListener("DOMContentLoaded", function () {
         for (let i = wordArray.length - 1; i > 0; i--) {
             let j = Math.floor(Math.random() * (i + 1));
             [wordArray[i], wordArray[j]] = [wordArray[j], wordArray[i]];
+        }
+    }
+
+    function countdown() {
+        if (timeLeft > 0) {
+            timeLeft--;
+            timeText.innerText = timeLeft;
         }
     }
 
