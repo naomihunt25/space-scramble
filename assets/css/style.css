@@ -79,3 +79,18 @@ body {
     background-color: #eed0ff;
     transition: color 0.4s ease-in-out;
 }
+
+/* Button to trigger the modal */
+.btn-primary {
+    background-color: #000560 !important;
+    font-family: var(--primary-font) !important;
+    font-size: 1.5rem !important;
+    padding: 10px 20px;
+    margin: 30px 40px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #020bb8 !important;
+}
