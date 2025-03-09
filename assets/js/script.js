@@ -57,6 +57,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const wordText = document.querySelector(".word");
     const hintText = document.querySelector(".hint span");
     const timeText = document.querySelector(".timer span");
+
+     // Function to toggle the audio state (play/pause) and icon
+     volumeButton.addEventListener('click', function() {
+        if (backgroundMusic.paused) {
+            backgroundMusic.play(); // Play the music
+            volumeButton.innerHTML = "<i class='fa-solid fa-volume-xmark'></i>"; // Mute icon
+        } else {
+            backgroundMusic.pause(); // Pause the music
+            volumeButton.innerHTML = "<i class='fa-solid fa-volume-high'></i>"; // Unmute icon
+        }
+    });
    
     let correctWord = "";
     
