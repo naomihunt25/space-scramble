@@ -1,4 +1,6 @@
-// List of Words and their hints
+document.addEventListener("DOMContentLoaded", function () {
+
+     // List of Words and their hints
 const words = [
     { word: "gravity", hint: "Force that attracts objects towards a planet" },
     { word: "orbit", hint: "Path followed by a celestial body" },
@@ -48,8 +50,6 @@ const words = [
     { word: "earth", hint: "The third planet from the Sun, home to life." }
 ];
 
-document.addEventListener("DOMContentLoaded", function () {
-
     // Element references  
     const inputField = document.querySelector("input");
     const wordText = document.querySelector(".word");
@@ -62,7 +62,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Start a new round 
     function initGame() {
-        console.log("New game started");
+        let randomObj = words[Math.floor(Math.random() * words.length)];
+        correctWord = randomObj.word.toLowerCase();
+        wordText.innerText = randomObj.word;
+        hintText.innerText = randomObj.hint;
     }
 
     // Scramble the letters of a word
@@ -78,4 +81,8 @@ document.addEventListener("DOMContentLoaded", function () {
      // Add event listeners for buttons  
      document.querySelector(".new-word").addEventListener("click", initGame);
      document.querySelector(".submit").addEventListener("click", checkAnswer); 
+
+     
+    initGame();
 });
+
