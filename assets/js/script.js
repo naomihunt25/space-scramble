@@ -62,16 +62,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Start a new round 
     function initGame() {
-
+        console.log("New game started");
     }
 
     // Scramble the letters of a word
     function scrambleWord() {
+
     }
 
     // Check what the user typed
     function checkAnswer() {
-
+        console.log("Checking anwser");
     }
-
+    
+     // Add event listeners for buttons  
+     document.querySelector(".new-word").addEventListener("click", initGame);
+     document.querySelector(".submit").addEventListener("click", checkAnswer); 
 });
